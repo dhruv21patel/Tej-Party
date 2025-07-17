@@ -126,11 +126,12 @@ body, .main-grid, .header-row, .content-row, .columns-placeholder {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+
 }
 
 .search-bar-container {
   width: 100%;
-  max-width: 640px;
+  max-width: 840px;
   position: relative;
   display: flex;
   align-items: center;
@@ -142,10 +143,13 @@ body, .main-grid, .header-row, .content-row, .columns-placeholder {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  width: 100%;
+  max-width: 450px;
+  
 }
 
 .search-input {
-  max-width: 300px;
+  max-width: 450px;
   flex: 1 1 0;
   padding: 0.9rem 1.2rem;
   font-size: 1.1rem;
