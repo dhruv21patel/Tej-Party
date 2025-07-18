@@ -34,7 +34,7 @@ function PhotoUpload() {
       });
 
       // Replace with your actual backend endpoint
-      const response = await fetch(backendURL, {
+      const response = await fetch("https://tejbackend.onrender.com/api/upload-photos", {
         method: 'POST',
         body: formData,
         // Don't set Content-Type header - let browser set it with boundary for FormData
