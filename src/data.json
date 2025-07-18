@@ -155,7 +155,7 @@
   { "name": "Enoch Yi and guest", "table": "14" },
   { "name": "Hriday Meka", "table": "14" },
   { "name": "Michael Isayan", "table": "14" },
-  { "name": "Matthew Kin", "table": "14" },
+  { "name": "Matthew Kim", "table": "14" },
   { "name": "Travis Dao", "table": "14" },
   { "name": "Kinnen Blair", "table": "14" },
   { "name": "Kinzi ", "table": "14" },
@@ -179,5 +179,10 @@
 
   { "name": "Krish Patel", "table": "16" },
   { "name": "Ayan Patel", "table": "16" },
-  { "name": "Riyaan Doshi", "table": "16" }
+  { "name": "Riyaan Doshi", "table": "16" },
+  { "name": "Scarlett Manual", "table": "16" },
+  { "name": "Soorya Patil", "table": "16" },
+  { "name": "Micah Ramos", "table": "16" },
+  { "name": "Aspan Chung", "table": "16" }
+
 ]
