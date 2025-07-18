@@ -11,6 +11,8 @@ function PhotoUpload() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState('');
 
+  const backendURL = process.env.URL;
+
   const handleFileChange = (e) => {
     setSelectedFiles(Array.from(e.target.files));
     setSuccess(false);
@@ -32,7 +34,7 @@ function PhotoUpload() {
       });
 
       // Replace with your actual backend endpoint
-      const response = await fetch('http://localhost:3000/api/upload-photos', {
+      const response = await fetch(backendURL, {
         method: 'POST',
         body: formData,
         // Don't set Content-Type header - let browser set it with boundary for FormData
