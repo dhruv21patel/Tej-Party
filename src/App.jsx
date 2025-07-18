@@ -11,7 +11,6 @@ function PhotoUpload() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState('');
 
-  const backendURL = process.env.URL;
 
   const handleFileChange = (e) => {
     setSelectedFiles(Array.from(e.target.files));
@@ -252,8 +251,8 @@ function App() {
 
   function handleSearch() {
     const found = data.find(row => row.name && row.name.toLowerCase() === search.toLowerCase())
-    if (found && found.tabel) {
-      setTableNumber(found.tabel)
+    if (found && found.table) {
+      setTableNumber(found.table)
     } else {
       setTableNumber('')
     }
